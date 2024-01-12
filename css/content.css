@@ -1,0 +1,49 @@
+.section {
+  display: flex;
+  justify-content: center;
+}
+
+.content-titles {
+  font-size: 60px;
+  text-align: center;
+  color: #fff;
+}
+
+.content-texts {
+  font-size: 22px;
+  margin-top: 0.2em;
+  text-align: center;
+  color: #bdbaba;
+}
+
+.container-content {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  padding: 5em;
+  width: 50%;
+}
+
+.container-content-textos {
+  padding: 10em;
+}
+
+@media (max-width: 768px) {
+  .content-titles {
+    font-size: 30px;
+  }
+
+  .content-texts {
+    font-size: 20px;
+  }
+
+  .container-content {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    padding: 1em;
+    width: 80%;
+  }
+}

@@ -1,0 +1,163 @@
+:root {
+  background-color: #0b5180;
+  font-family: "Rubik", sans-serif;
+}
+
+header {
+  background-color: #13212b;
+}
+
+main {
+  background-color: #13212b;
+}
+
+.wave {
+  margin-top: 2em;
+}
+
+.texts {
+  font-size: 60px;
+  color: #fff;
+}
+
+.texts-2 {
+  color: #fff;
+  font-size: 20px;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  text-align: right;
+  color: #fff;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.decoration-none {
+  text-decoration: none;
+}
+
+.titles {
+  font-size: 2em;
+  color: #fff;
+}
+
+.container-sobre {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.cv-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #007bff;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  margin-top: 1em;
+}
+
+.cv-button:hover {
+  background-color: #0056b3;
+}
+
+.img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 42%;
+  margin-top: 1em;
+}
+
+.container-sobre-textos {
+  padding: 10em;
+}
+
+@media (max-width: 768px) {
+  .wave {
+    margin-top: 2em;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .img {
+    width: 100%;
+  }
+
+  .texts {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .texts-2 {
+    font-size: 20px;
+    text-align: center;
+    padding: 0.2em;
+  }
+
+  .cv-button {
+    margin-bottom: 1.5em;
+    align-items: center;
+    text-align: center;
+    width: 20em;
+  }
+
+  .container-sobre {
+    flex-direction: column;
+    justify-content: center;
+    padding: 2em;
+  }
+
+  .container-sobre-textos {
+    padding: 0;
+  }
+}
+
+@media (max-width: 1073px) {
+  .wave {
+    margin-top: 2em;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .img {
+    width: 70%;
+    margin-top: 1em;
+  }
+
+  .cv-button {
+    margin-bottom: 1.5em;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+  }
+
+  .texts {
+    text-align: center;
+  }
+
+  .texts-2 {
+    text-align: center;
+    padding: 0.2em;
+  }
+
+  .container-sobre {
+    padding: 2em;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .container-sobre-textos {
+    padding: 0;
+  }
+}

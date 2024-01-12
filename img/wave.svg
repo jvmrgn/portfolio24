@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 50 1440 120" width="100%">
+  <defs>
+    <path
+      id="sineWave"
+      fill="#0099ff"
+      fill-opacity="0.4"
+      d="M0,120 C240,60,480,240,720,130 C900,60,1200,180,1440,120 V0 H0"
+    />
+  </defs>
+  <!-- Use a "use" tag to reference the path inside the SVG -->
+  <use xlink:href="#sineWave" />
+</svg>
