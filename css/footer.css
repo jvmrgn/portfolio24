@@ -33,3 +33,18 @@ footer {
 .contact-link:hover {
   background-color: #0056b3;
 }
+
+.cubiculo {
+  margin-top: 1em;
+}
+
+.cubiculo a {
+  margin: 0 10px;
+  color: #fff;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.cubiculo a:hover {
+  color: #00bcd4;
+}
